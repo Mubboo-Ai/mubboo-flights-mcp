@@ -47,6 +47,16 @@ gemini extensions install https://github.com/Mubboo-Ai/mubboo-flights-mcp
 
 Review the connection details when prompted. The [extension manifest](https://github.com/Mubboo-Ai/mubboo-flights-mcp/blob/main/gemini-extension.json) connects to the hosted endpoint and includes only the three documented tools. It requires no API key, installs no local MCP server and includes no hooks or custom permission rules. See [Gemini CLI setup and verification](https://github.com/Mubboo-Ai/mubboo-flights-mcp/blob/main/docs/gemini-cli.md).
 
+### Claude Code plugin
+
+Install the connection plugin in Claude Code:
+
+```text
+/plugin install mubboo-flights --marketplace Mubboo-Ai/mubboo-flights-mcp
+```
+
+The repository includes a connection plugin for Claude Code. After cloning it, start `claude --plugin-dir ./mubboo-flights-mcp` to load the existing hosted MCP connection. See [Claude Code setup](https://github.com/Mubboo-Ai/mubboo-flights-mcp/blob/main/docs/claude-code.md) for connection details and validation.
+
 ## What you can do
 
 | Tool | Traveller benefit |

@@ -1,0 +1,30 @@
+{
+  "name": "mubboo-flights",
+  "version": "0.1.0",
+  "description": "Prepare flight comparisons with airport lookup, trip-input validation and ready-to-open search links. Free hosted MCP; no API key.",
+  "author": {
+    "name": "Mubboo LLC",
+    "email": "support@mubboo.flights",
+    "url": "https://mubboo.flights"
+  },
+  "homepage": "https://mubboo.flights/mcp",
+  "repository": "https://github.com/Mubboo-Ai/mubboo-flights-mcp",
+  "license": "MIT",
+  "keywords": [
+    "travel",
+    "flights",
+    "comparison",
+    "mcp"
+  ],
+  "mcpServers": {
+    "mubboo-flights": {
+      "type": "http",
+      "url": "https://mubboo.flights/api/mcp"
+    }
+  },
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://mubboo.flights/mcp",
+  "supportUrl": "https://github.com/Mubboo-Ai/mubboo-flights-mcp/issues",
+  "privacyPolicyUrl": "https://mubboo.flights/privacy",
+  "termsOfServiceUrl": "https://mubboo.flights/terms"
+}
