@@ -30,6 +30,16 @@
 }
 ```
 
+## Claude Code 插件
+
+在 Claude Code 中安装现有远程服务的连接配置：
+
+```text
+/plugin install mubboo-flights --marketplace Mubboo-Ai/mubboo-flights-mcp
+```
+
+安装时检查连接信息。无需 Mubboo API key；工具能力及限制不变。详见 [Claude Code 连接文档](https://github.com/Mubboo-Ai/mubboo-flights-mcp/blob/main/docs/claude-code.md)。
+
 ## 三个工具
 
 Gemini CLI 用户也可以直接安装本仓库的连接配置：

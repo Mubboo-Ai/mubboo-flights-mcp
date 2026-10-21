@@ -1,0 +1,14 @@
+{
+  "name": "mubboo-flights-plugins",
+  "description": "Official Mubboo Flights connection configuration for Claude Code.",
+  "owner": {
+    "name": "Mubboo LLC"
+  },
+  "plugins": [
+    {
+      "name": "mubboo-flights",
+      "source": "./",
+      "description": "Prepare flight comparisons with airport lookup, trip-input validation and ready-to-open search links. Free hosted MCP; no API key."
+    }
+  ]
+}
