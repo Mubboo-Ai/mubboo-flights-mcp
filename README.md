@@ -8,7 +8,7 @@
 
 Connect the free hosted MCP service to a compatible assistant to find airports, check your trip inputs and prepare a flight-search link. Open that link when you are ready to compare current options.
 
-[Official connection guide](https://mubboo.flights/mcp) · [中文](README.zh-CN.md) · [Tool reference](docs/tools.md) · [Directory facts](docs/directory-listing.md)
+[Official connection guide](https://mubboo.flights/mcp) · [中文](https://github.com/Mubboo-Ai/mubboo-flights-mcp/blob/main/README.zh-CN.md) · [Tool reference](https://github.com/Mubboo-Ai/mubboo-flights-mcp/blob/main/docs/tools.md) · [Directory facts](https://github.com/Mubboo-Ai/mubboo-flights-mcp/blob/main/docs/directory-listing.md)
 
 ## Connect
 
@@ -35,7 +35,7 @@ For clients using `mcpServers` configuration:
 }
 ```
 
-VS Code uses a `servers` object and `type: "http"`; see [connection examples](docs/connection.md). Merge the entry with your existing configuration, keeping other servers intact.
+VS Code uses a `servers` object and `type: "http"`; see [connection examples](https://github.com/Mubboo-Ai/mubboo-flights-mcp/blob/main/docs/connection.md). Merge the entry with your existing configuration, keeping other servers intact.
 
 ### Gemini CLI extension
 
@@ -45,7 +45,7 @@ Gemini CLI users can install the connection configuration directly:
 gemini extensions install https://github.com/Mubboo-Ai/mubboo-flights-mcp
 ```
 
-Review the connection details when prompted. The [extension manifest](gemini-extension.json) connects to the hosted endpoint and includes only the three documented tools. It requires no API key, installs no local MCP server and includes no hooks or custom permission rules. See [Gemini CLI setup and verification](docs/gemini-cli.md).
+Review the connection details when prompted. The [extension manifest](https://github.com/Mubboo-Ai/mubboo-flights-mcp/blob/main/gemini-extension.json) connects to the hosted endpoint and includes only the three documented tools. It requires no API key, installs no local MCP server and includes no hooks or custom permission rules. See [Gemini CLI setup and verification](https://github.com/Mubboo-Ai/mubboo-flights-mcp/blob/main/docs/gemini-cli.md).
 
 ## What you can do
 
@@ -93,7 +93,7 @@ node examples/demo.mjs
 
 The demo chooses a date 30 days ahead, checks the three tools, and validates the returned search link without opening it. It does not request supplier prices or create a booking. These programs are client examples, not local MCP servers; do not configure them as an assistant's stdio server.
 
-The public endpoint and tool inventory were checked on **21 October 2026**. See [tools.json](tools.json) and [verification notes](docs/verification.md). This is a dated observation, not an uptime or marketplace-approval guarantee.
+The public endpoint and tool inventory were checked on **21 October 2026**. See [tools.json](https://github.com/Mubboo-Ai/mubboo-flights-mcp/blob/main/tools.json) and [verification notes](https://github.com/Mubboo-Ai/mubboo-flights-mcp/blob/main/docs/verification.md). This is a dated observation, not an uptime or marketplace-approval guarantee.
 
 ## Privacy and support
 
@@ -101,6 +101,6 @@ Send only the trip inputs required by the tools. Do not send names, passport det
 
 [Privacy](https://mubboo.flights/privacy) · [Terms](https://mubboo.flights/terms) · [Affiliate Disclosure](https://mubboo.flights/affiliate-disclosure) · [support@mubboo.flights](mailto:support@mubboo.flights)
 
-For documentation or example-code corrections, open an issue or pull request. Keep private traveller data and credentials out of public reports. See [SECURITY.md](SECURITY.md).
+For documentation or example-code corrections, open an issue or pull request. Keep private traveller data and credentials out of public reports. See [SECURITY.md](https://github.com/Mubboo-Ai/mubboo-flights-mcp/blob/main/SECURITY.md).
 
-The [MIT license](LICENSE) covers the original files in this repository. It does not license the hosted service's private implementation or Mubboo trademarks. Dependencies retain their own licenses.
+The [MIT license](https://github.com/Mubboo-Ai/mubboo-flights-mcp/blob/main/LICENSE) covers the original files in this repository. It does not license the hosted service's private implementation or Mubboo trademarks. Dependencies retain their own licenses.

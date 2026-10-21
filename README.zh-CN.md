@@ -8,7 +8,7 @@
 
 免费的托管 MCP 服务可以帮助兼容的 AI 助手查找机场、核对行程参数，并准备可直接打开的机票搜索链接。打开链接后，你可以比较当前选项并自行选择预订渠道。
 
-[官方连接指南](https://mubboo.flights/mcp) · [English](README.md)
+[官方连接指南](https://mubboo.flights/mcp) · [English](https://github.com/Mubboo-Ai/mubboo-flights-mcp/blob/main/README.md)
 
 ## 连接设置
 
@@ -38,7 +38,7 @@ Gemini CLI 用户也可以直接安装本仓库的连接配置：
 gemini extensions install https://github.com/Mubboo-Ai/mubboo-flights-mcp
 ```
 
-安装时检查客户端显示的连接信息。[扩展配置](gemini-extension.json)只连接现有远程端点并允许下列三个工具，无需 API key，也不包含本地服务器、钩子或权限覆盖。更多说明见 [Gemini CLI 连接文档](docs/gemini-cli.md)。
+安装时检查客户端显示的连接信息。[扩展配置](https://github.com/Mubboo-Ai/mubboo-flights-mcp/blob/main/gemini-extension.json)只连接现有远程端点并允许下列三个工具，无需 API key，也不包含本地服务器、钩子或权限覆盖。更多说明见 [Gemini CLI 连接文档](https://github.com/Mubboo-Ai/mubboo-flights-mcp/blob/main/docs/gemini-cli.md)。
 
 | 工具 | 用途 |
 | --- | --- |
@@ -65,7 +65,7 @@ node examples/config.mjs vscode
 
 `discover.mjs` 仅初始化连接并读取工具清单，不执行工具。可选的 `node examples/demo.mjs` 用虚构的 JFK–LHR 行程调用三个工具，日期为运行时的 30 天后；它核验搜索链接但不打开链接，不预订或付款。不要把这些客户端程序配置为 stdio MCP 服务器。
 
-2026 年 10 月 21 日已核验公开端点和三个工具，记录见 [tools.json](tools.json)。这不代表任何第三方目录已经批准收录。
+2026 年 10 月 21 日已核验公开端点和三个工具，记录见 [tools.json](https://github.com/Mubboo-Ai/mubboo-flights-mcp/blob/main/tools.json)。这不代表任何第三方目录已经批准收录。
 
 ## 隐私与支持
 
