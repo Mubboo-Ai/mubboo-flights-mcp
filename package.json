@@ -1,0 +1,15 @@
+{
+  "name": "mubboo-flights-mcp-integration",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Official integration examples and connection checks for the hosted Mubboo Flights Search MCP service.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "check:live": "node examples/discover.mjs",
+    "demo:live": "node examples/demo.mjs"
+  },
+  "dependencies": { "@modelcontextprotocol/sdk": "1.32.1" }
+}

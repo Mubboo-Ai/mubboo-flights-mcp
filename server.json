@@ -1,0 +1,9 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "flights.mubboo/flight-search",
+  "title": "Mubboo Flights Search",
+  "description": "Mubboo Flights: all-in-one travel comparison and tickets platform. MCP tools for flight search.",
+  "version": "0.1.1",
+  "websiteUrl": "https://mubboo.flights/mcp",
+  "remotes": [{ "type": "streamable-http", "url": "https://mubboo.flights/api/mcp" }]
+}
