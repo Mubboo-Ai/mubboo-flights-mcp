@@ -32,6 +32,14 @@
 
 ## 三个工具
 
+Gemini CLI 用户也可以直接安装本仓库的连接配置：
+
+```sh
+gemini extensions install https://github.com/Mubboo-Ai/mubboo-flights-mcp
+```
+
+安装时检查客户端显示的连接信息。[扩展配置](gemini-extension.json)只连接现有远程端点并允许下列三个工具，无需 API key，也不包含本地服务器、钩子或权限覆盖。更多说明见 [Gemini CLI 连接文档](docs/gemini-cli.md)。
+
 | 工具 | 用途 |
 | --- | --- |
 | `find_airports` | 按地点名称或 IATA 代码查找机场和城市，存在多个结果时由旅客确认。 |
