@@ -37,6 +37,16 @@ For clients using `mcpServers` configuration:
 
 VS Code uses a `servers` object and `type: "http"`; see [connection examples](docs/connection.md). Merge the entry with your existing configuration, keeping other servers intact.
 
+### Gemini CLI extension
+
+Gemini CLI users can install the connection configuration directly:
+
+```sh
+gemini extensions install https://github.com/Mubboo-Ai/mubboo-flights-mcp
+```
+
+Review the connection details when prompted. The [extension manifest](gemini-extension.json) connects to the hosted endpoint and includes only the three documented tools. It requires no API key, installs no local MCP server and includes no hooks or custom permission rules. See [Gemini CLI setup and verification](docs/gemini-cli.md).
+
 ## What you can do
 
 | Tool | Traveller benefit |

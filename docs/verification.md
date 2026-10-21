@@ -18,4 +18,10 @@ npm run check:live
 npm run demo:live
 ```
 
-The GitHub workflow runs offline fixture tests only. It does not query the live service on every pull request. Named desktop-client compatibility and marketplace acceptance are not established by these checks. Documentation, example version and hosted-service version are separate.
+The GitHub workflow runs offline fixture tests only. It does not query the live service on every pull request. Marketplace acceptance is not established by these checks. Documentation, example version and hosted-service version are separate.
+
+## Gemini CLI extension verification
+
+On 21 October 2026, Gemini CLI `0.65.0` from the official npm package validated the root manifest, installed the local extension into an isolated temporary Gemini configuration, and reported the remote MCP as **Connected** through `gemini mcp list`. `gemini extensions list` confirmed the extension name/version and its single MCP server. The eight existing offline tests also passed after this change.
+
+This verifies extension loading and connection in that CLI version. No Gemini model conversation or paid model call was performed. It does not establish Google endorsement, gallery inclusion, or compatibility with every client. The normal user Gemini configuration was not modified.

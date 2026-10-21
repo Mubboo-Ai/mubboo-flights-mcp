@@ -1,0 +1,16 @@
+{
+  "name": "mubboo-flights-mcp",
+  "version": "0.1.0",
+  "description": "Find airports, validate trip inputs and prepare flight-comparison links with Mubboo's free hosted MCP. No account or API key. No live fares or booking via MCP.",
+  "mcpServers": {
+    "mubboo-flights": {
+      "httpUrl": "https://mubboo.flights/api/mcp",
+      "timeout": 15000,
+      "includeTools": [
+        "find_airports",
+        "prepare_flight_search",
+        "get_service_info"
+      ]
+    }
+  }
+}
